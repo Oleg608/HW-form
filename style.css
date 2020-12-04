@@ -4,56 +4,66 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #e3e3e3;
+  background-color: #b4aeae;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .card {
-  text-align: center;
-  background-color: rgb(201, 191, 178);
-  margin: auto;
-  width: 40%;
-  height: 500px;
+  background-color: rgb(235, 230, 222);
   margin-top: 10%;
   margin-bottom: 10%;
-  padding: 2.5%;
-  border: 2px solid black;
+  width: 30%;
+  height: 400px;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
 }
-.nameForm {
+.image {
+  height: 100px;
+  position: relative;
+  top: -50px;
+}
+.image > img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-size: cover;
+}
+.forms {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  flex-direction: column;
+  height: 100px;
+  text-align: center;
+  justify-content: space-around;
 }
-.nameForm > input {
-  width: 49%;
+.forms > h2 {
+  margin-bottom: 50px;
+}
+.forms > input {
   height: 40px;
+  margin-bottom: 10px;
   font-size: 20px;
-}
-.emailForm > input,
-.passwordForm > input,
-.confirmPasswordForm > input {
-  width: 100%;
-  height: 40px;
-  font-size: 20px;
-}
-.links {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-.links > * {
-  margin-right: 5px;
+  border-radius: 5px;
 }
 .button > button {
-  width: 60%;
-  height: 30px;
-  background-color: #5eb14d;
-  border: 1px solid black;
-  border-radius: 2px;
+  width: 200px;
+  height: 50px;
+  border: 2px solid black;
+  background-color: rgb(133, 212, 109);
   color: white;
-  font-size: 20px;
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.link {
+  height: 80px;
+  background-color: rgb(190, 207, 207);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0 0 5px 5px;
 }
