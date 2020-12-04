@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #e3e3e3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  text-align: center;
+  background-color: rgb(201, 191, 178);
+  margin: auto;
+  width: 40%;
+  height: 500px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 2.5%;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nameForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nameForm > input {
+  width: 49%;
+  height: 40px;
+  font-size: 20px;
+}
+.emailForm > input,
+.passwordForm > input,
+.confirmPasswordForm > input {
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+}
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.links > * {
+  margin-right: 5px;
+}
+.button > button {
+  width: 60%;
+  height: 30px;
+  background-color: #5eb14d;
+  border: 1px solid black;
+  border-radius: 2px;
+  color: white;
+  font-size: 20px;
+}
